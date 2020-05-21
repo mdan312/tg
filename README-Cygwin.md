@@ -24,7 +24,7 @@ libconfig and libjansson is not in cygwin's package, so you should compile yours
 
 Compile libconfig
      
-     wget http://www.hyperrealm.com/libconfig/libconfig-1.5.tar.gz
+     wget http://sources.buildroot.net/libconfig/libconfig-1.5.tar.gz
      tar xvf libconfig-1.5.tar.gz && cd libconfig-1.5
      ./configure
      make && make install && cd ..
